@@ -1,0 +1,181 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+.btn1{
+  height:45px ;
+  width: 35%;
+  border:none;
+  outline: none;
+  background: rgb(248,26,92);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
+.btn1:hover{
+  background: rgb(251,112,154);
+  transition: 0.2s;
+}
+h1{
+  font-weight: 700;
+}
+.card:hover {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+
+nav{
+  padding: 0 2%;
+  background: rgba(0,0,0,0.700);
+}
+.navbar-brand{
+  font-size: 2rem;
+  color: #f81a5c;
+  font-family: 'Lobster', cursive;
+}
+.nav-item .nav-link{
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Rubik', sans-serif;
+}
+.nav-item .nav-link:hover{
+  color: black;
+}
+.nav-item .nav-link:active{
+  
+}
+.search{
+  height: 40px;
+  width: 70%;
+  border-radius: 60px;
+  margin-right: -35px;
+  outline: none;
+  border: 2px solid rgb(248,26,92);
+  font-family: 'Rubik', sans-serif;
+}
+.btn0{
+  height: 40px;
+  width: 50%;
+  outline: none;
+  border: none;
+  background: rgb(248,26,92);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
+
+/*Main section starts*/
+.main{
+  background: url('green-food.jpg')no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+}
+.main h1{
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+}
+
+/*Main section ends*/
+
+
+/*Trading food section start */
+.Trading button{
+  height:45px;
+  border:none;
+  outline: none;
+  background: rgb(248,26,92);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
+.Trading button:hover{
+  background: rgb(251,112,154);
+  transition: 0.2s;
+}
+
+/*Apple secrion start*/
+.apple{
+  background:url(apple.jpg)no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+}
+.apple h1{
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+}
+.apple button {
+  height:45px;
+  outline: none;
+  border:2px solid rgb(248,26,92);
+  background: transparent;
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+  transition: 0.3s;
+}
+.apple button:hover{
+  background: rgb(248,26,92);
+}
+
+/*footer start here*/
+footer{
+  background-color: black;
+  color: white;
+}
+footer .btn2{
+  height: 45px;
+  width: 100px;
+  background: white ;
+  margin-left: -10px;
+  border:2px solid white;
+  font-weight: 600;
+}
+footer input {
+  height: 45px;
+  width: 55%;
+  border: 2px solid white;
+  outline: none;
+  background: black;
+  color: white;
+  margin-top:  px;
+  font-weight: 600;
+}
+footer::placeholder {
+  color: white;
+}
+footer p{
+  margin:0;
+}
+.fab{
+  font-size: 2rem;
+  cursor: pointer;
+  margin-right: 5px;
+}
+@media screen and (max-width:600px){
+  .new img{
+    width:100px
+  }
+  .card{
+    width:80%;
+    margin: 0 auto;
+ 
+    display: flex;
+    justify-content: center; 
+    align-items:  center;
+  }
+}
+
+
+
+
